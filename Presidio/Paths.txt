@@ -1,0 +1,18 @@
+Derby Bin Parent -->  C:\derby\db-derby-10.14.2.0-bin
+
+Derby Bin  -->  C:\derby\db-derby-10.14.2.0-bin\bin
+
+Set DERBY_Install  -->  set DERBY_INSTALL=C:\derby\db-derby-10.14.2.0-bin
+
+Configure Embedded Derby  -->  set CLASSPATH=%DERBY_INSTALL%\lib\derby.jar;%DERBY_INSTALL%\lib\derbytools.jar;
+
+cd %DERBY_INSTALL%\bin
+
+setEmbeddedCP.bat
+
+Presidio Path  -->  C:\Users\vikas\Desktop\Presidio
+
+Java JDK Path  -->  C:\Program Files\Java\jdk1.8.0_201\bin
+
+IJ Connection  -->  connect 'jdbc:derby:C:/Users/vikas/Desktop/Presidio/Hospital_DB;create=false';
+
